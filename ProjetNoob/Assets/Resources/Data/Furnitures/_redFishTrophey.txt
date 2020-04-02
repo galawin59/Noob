@@ -1,0 +1,9 @@
+name=redFishTrophey
+type=redFishTrophey
+pref=redFishTrophey
+nbrD=0100
+nbrP=1
+snap=false
+inte=false
+cbpo=collider
+nbrS=1

@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1988678267941344}
+  m_IsPrefabAsset: 1
+--- !u!1 &1988678267941344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4429512320274596}
+  - component: {fileID: 114864578906101652}
+  m_Layer: 0
+  m_Name: '@SpriteManager'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4429512320274596
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1988678267941344}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 444.5, y: 250, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114864578906101652
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1988678267941344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 478eadd038f13c841add66adfeed0de4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursors:
+  - {fileID: 21300000, guid: cb91b86d5145ae54d9cf9b54b5f072bd, type: 3}
+  - {fileID: 21300000, guid: f12dd9fabcf699145b20db4ec590db5b, type: 3}
+  - {fileID: 21300000, guid: 75d635e3557d47b40b6ae340d285209a, type: 3}
+  - {fileID: 21300000, guid: 4f277621dda4e4d41be1cee4c5679473, type: 3}
+  itemsSpriteHud:
+  - {fileID: 21300000, guid: 77ebdfede8de7e94191303b031d49293, type: 3}
+  - {fileID: 21300000, guid: 853fa6c0f3222b645874f51a08f06bd5, type: 3}
+  - {fileID: 21300000, guid: b746af95e4678dc4f9c1f70abcdf8b18, type: 3}
+  - {fileID: 21300000, guid: c00504417144958459c0f69cd983972a, type: 3}
+  - {fileID: 21300000, guid: 549c39f99dc64a245a361d1d02fcdd0f, type: 3}
+  - {fileID: 21300000, guid: ae567df692cfabf40a54ddee488ad92b, type: 3}
+  - {fileID: 21300000, guid: 5f7fb9b37aa166145b408496b7186066, type: 3}
+  - {fileID: 21300000, guid: a299bf363d9dde6429b8780bf0be7125, type: 3}
+  - {fileID: 21300000, guid: f8b23371cf1f07d49b0ca1aba7c147d2, type: 3}
+  - {fileID: 21300000, guid: 3b6926217be1b0b4998335744e0384d2, type: 3}
+  - {fileID: 21300000, guid: e35752631f907a6479fbfb5cb5724524, type: 3}
+  - {fileID: 21300000, guid: 1865f2b23f11aca4e9e1d2b5bdb8b267, type: 3}
+  - {fileID: 21300000, guid: f3c67bfc320150f4d870efa1f8e466b1, type: 3}
+  - {fileID: 21300000, guid: 614e2567174f80f48bfb6728259cdb6c, type: 3}
+  - {fileID: 21300000, guid: e6c59c23698a7f94f8c57bfbe11453ba, type: 3}
+  - {fileID: 21300000, guid: 4e0c1cb7c3d707f40b9cc13a3708119a, type: 3}
+  - {fileID: 21300000, guid: 0897ea01733460040a6e9f054541af61, type: 3}
+  - {fileID: 21300000, guid: 36765f517f9a95c4a8c1a1ea6a9c78d7, type: 3}
+  - {fileID: 21300000, guid: 49f739e7177ee394da0aaf386b6e7a47, type: 3}
+  - {fileID: 21300000, guid: fba771974ec9db948bae5304a969e85a, type: 3}
+  - {fileID: 21300000, guid: 0153a87b3c930a24497ca771462a4fa2, type: 3}
+  - {fileID: 21300000, guid: 7177d0bcc53b74649913c5823252049c, type: 3}
+  - {fileID: 21300000, guid: cf217ee78d398fc4fb6acd6abfd82613, type: 3}
+  - {fileID: 21300000, guid: 324d76a1245cc604bb8a1dbf4143a8ee, type: 3}
+  - {fileID: 21300000, guid: 7a211ff487ef76c40b9bebe629a27d3b, type: 3}
+  - {fileID: 21300000, guid: 016b2196ddcce5849853f339066ee95a, type: 3}
+  - {fileID: 21300000, guid: 93cb30f448d03ef4fbbca96afd4ec8d2, type: 3}
+  - {fileID: 21300000, guid: 3f09b0e51405ac54d9cb6b0826dc1aa5, type: 3}
+  - {fileID: 21300000, guid: d9cb0c8499d47f84fae5bf88e5fdbfd2, type: 3}
+  resourcesSpriteHud:
+  - {fileID: 21300000, guid: 7cd4b5c5bbf1d3941b77bdd0de636f6f, type: 3}
+  - {fileID: 21300000, guid: f809f3beaeeede340afc027595cab674, type: 3}
+  - {fileID: 21300000, guid: 7aef6783bd5ea0f4f80236f299b013bf, type: 3}
+  - {fileID: 21300000, guid: 878e28d31a91b524081ebe102de2046c, type: 3}
+  - {fileID: 21300000, guid: 7a79742958d9c4a4996eaa249b69bf59, type: 3}
+  nbSmourbiff: 13
+  stunSprite:
+  - {fileID: 21300000, guid: 2d7fa386102df29449ba9e14812e41c7, type: 3}
+  - {fileID: 21300000, guid: cff61c8f3ac081442a4d68dd75045d04, type: 3}
+  spritesCrate: []

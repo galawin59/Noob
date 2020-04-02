@@ -1,0 +1,9 @@
+name=largeShelf
+type=largeShelf
+pref=largeShelf
+nbrD=0100
+nbrP=1
+snap=false
+inte=false
+cbpo=rien
+nbrS=1

@@ -1,0 +1,9 @@
+name=warriorArmor1
+type=warriorArmor1
+pref=warriorArmor1
+nbrD=0100
+nbrP=1
+snap=false
+inte=false
+cbpo=rien
+nbrS=11

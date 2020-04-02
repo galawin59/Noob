@@ -1,0 +1,9 @@
+name=platypusTrophey
+type=platypusTrophey
+pref=platypusTrophey
+nbrD=0100
+nbrP=1
+snap=false
+inte=false
+cbpo=collider
+nbrS=1

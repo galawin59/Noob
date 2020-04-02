@@ -1,0 +1,9 @@
+name=largeIronTable
+type=largeIronTable
+pref=largeIronTable
+nbrD=0100
+nbrP=1
+snap=false
+inte=false
+cbpo=carpet
+nbrS=2

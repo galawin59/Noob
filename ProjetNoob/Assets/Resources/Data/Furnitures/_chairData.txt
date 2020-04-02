@@ -1,0 +1,9 @@
+name=chair
+type=chair
+pref=chair
+nbrD=1111
+nbrP=1
+snap=false
+inte=true
+cbpo=rien
+nbrS=1

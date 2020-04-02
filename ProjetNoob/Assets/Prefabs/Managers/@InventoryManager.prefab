@@ -1,0 +1,227 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1112143292892894}
+  m_IsPrefabAsset: 1
+--- !u!1 &1112143292892894
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4235579689657838}
+  - component: {fileID: 114490972332074058}
+  - component: {fileID: 114702697291541706}
+  - component: {fileID: 114784194315486596}
+  m_Layer: 0
+  m_Name: '@InventoryManager'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4235579689657838
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1112143292892894}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114490972332074058
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1112143292892894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ece41c9bcb36114ea4d14d33feb651a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nbLines: 4
+  nbColumns: 10
+--- !u!114 &114702697291541706
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1112143292892894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69ed7cf345f92784692a97705c4ac16c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resources: []
+  isOpen: 0
+--- !u!114 &114784194315486596
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1112143292892894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a71b84a3f53a3b94bb263bcc4a86192b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOpen: 0
+  nbLines: 10
+  nbColumns: 7
+  craftInfos:
+  - resourcesToCraft:
+    - amount: 10
+      type: 0
+    - amount: 3
+      type: 2
+    itemCraft: 0
+  - resourcesToCraft:
+    - amount: 20
+      type: 0
+    - amount: 5
+      type: 2
+    itemCraft: 1
+  - resourcesToCraft:
+    - amount: 30
+      type: 0
+    - amount: 8
+      type: 2
+    itemCraft: 2
+  - resourcesToCraft:
+    - amount: 30
+      type: 0
+    - amount: 30
+      type: 2
+    itemCraft: 23
+  - resourcesToCraft:
+    - amount: 20
+      type: 0
+    - amount: 5
+      type: 2
+    itemCraft: 4
+  - resourcesToCraft:
+    - amount: 20
+      type: 0
+    itemCraft: 5
+  - resourcesToCraft:
+    - amount: 20
+      type: 0
+    itemCraft: 6
+  - resourcesToCraft:
+    - amount: 5
+      type: 0
+    itemCraft: 3
+  - resourcesToCraft:
+    - amount: 30
+      type: 0
+    itemCraft: 8
+  - resourcesToCraft:
+    - amount: 50
+      type: 0
+    itemCraft: 9
+  - resourcesToCraft:
+    - amount: 4
+      type: 0
+    - amount: 5
+      type: 2
+    itemCraft: 10
+  - resourcesToCraft:
+    - amount: 20
+      type: 1
+    itemCraft: 11
+  - resourcesToCraft:
+    - amount: 25
+      type: 2
+    itemCraft: 12
+  - resourcesToCraft:
+    - amount: 30
+      type: 2
+    - amount: 5
+      type: 3
+    itemCraft: 13
+  - resourcesToCraft:
+    - amount: 35
+      type: 2
+    - amount: 5
+      type: 3
+    - amount: 3
+      type: 4
+    itemCraft: 15
+  - resourcesToCraft:
+    - amount: 40
+      type: 2
+    - amount: 15
+      type: 3
+    itemCraft: 14
+  - resourcesToCraft:
+    - amount: 40
+      type: 2
+    - amount: 10
+      type: 3
+    - amount: 3
+      type: 4
+    itemCraft: 16
+  - resourcesToCraft:
+    - amount: 50
+      type: 2
+    - amount: 15
+      type: 3
+    - amount: 5
+      type: 4
+    itemCraft: 17
+  - resourcesToCraft:
+    - amount: 20
+      type: 0
+    - amount: 10
+      type: 2
+    itemCraft: 22
+  - resourcesToCraft:
+    - amount: 15
+      type: 0
+    - amount: 10
+      type: 2
+    itemCraft: 21
+  - resourcesToCraft:
+    - amount: 5
+      type: 0
+    - amount: 30
+      type: 2
+    - amount: 5
+      type: 4
+    - amount: 5
+      type: 3
+    itemCraft: 7
+  - resourcesToCraft:
+    - amount: 20
+      type: 0
+    - amount: 5
+      type: 2
+    itemCraft: 20
+  - resourcesToCraft:
+    - amount: 25
+      type: 0
+    - amount: 10
+      type: 2
+    itemCraft: 19
+  - resourcesToCraft:
+    - amount: 15
+      type: 1
+    - amount: 20
+      type: 2
+    - amount: 5
+      type: 0
+    itemCraft: 24

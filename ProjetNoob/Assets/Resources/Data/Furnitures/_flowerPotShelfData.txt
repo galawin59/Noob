@@ -1,0 +1,9 @@
+name=flowerPot
+type=flowerPot
+pref=flowerPot
+nbrD=0100
+nbrP=1
+snap=false
+inte=false
+cbpo=table
+nbrS=4

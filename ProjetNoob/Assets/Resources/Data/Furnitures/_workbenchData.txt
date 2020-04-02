@@ -1,0 +1,9 @@
+name=workbench
+type=workbench
+pref=workbench
+nbrD=0100
+nbrP=1
+snap=false
+inte=true
+cbpo=rien
+nbrS=1

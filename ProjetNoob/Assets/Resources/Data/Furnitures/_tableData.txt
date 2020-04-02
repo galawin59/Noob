@@ -1,0 +1,9 @@
+name=table
+type=table
+pref=table
+nbrD=0100
+nbrP=1
+snap=false
+inte=false
+cbpo=rien
+nbrS=4

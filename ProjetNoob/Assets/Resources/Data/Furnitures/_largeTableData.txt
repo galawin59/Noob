@@ -1,0 +1,9 @@
+name=largeTable
+type=largeTable
+pref=largeTable
+nbrD=0100
+nbrP=1
+snap=false
+inte=false
+cbpo=rien
+nbrS=5
